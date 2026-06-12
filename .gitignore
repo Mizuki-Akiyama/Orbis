@@ -1,0 +1,15 @@
+.codegraph/
+backend/.idea/
+.agents/
+.claude/
+.cline/
+.roo/
+docs/
+node_modules/
+package-lock.json
+package.json
+skills-lock.json
+.clinerules/
+openspec/
+.superpowers/
+backend/__pycache__/
