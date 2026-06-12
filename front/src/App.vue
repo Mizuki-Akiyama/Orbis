@@ -1,7 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <AppHeader />
+  <main class="main-content">
+    <RouterView />
+  </main>
 </template>
+
+<style scoped>
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+</style>

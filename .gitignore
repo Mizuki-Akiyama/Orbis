@@ -13,3 +13,4 @@ skills-lock.json
 openspec/
 .superpowers/
 backend/__pycache__/
+.obsidian/
